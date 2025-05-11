@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.barra-roja-superior {
+    background-color: red; /* Define el color rojo */
+    width: 100%;          /* Ocupa todo el ancho del viewport */
+    height: 20px;         /* Define la altura de la línea (ajusta según necesites) */
+    position: fixed;      /* La fija en la parte superior aunque se haga scroll */
+    top: 0;               /* La pega al borde superior */
+    left: 0;              /* La pega al borde izquierdo */
+    z-index: 1000;        /* Asegura que esté por encima de otros elementos si es necesario */
+}
+
+/* Si tienes un contenedor para tus productos, puedes darle un margen superior para que no se oculte detrás de la barra */
+.contenedor-productos {
+    margin-top: 20px; /* Ajusta este valor según la altura de tu barra roja */
+}

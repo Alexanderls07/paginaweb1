@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  height: 100vh;
+  display: flex;
+}
+
+img {
+  margin: auto;
+  cursor: pointer;
+  transition: 1s;
+}
+
+img:hover {
+  transform: scale(1.06);
+  transition: 1s;
+}
